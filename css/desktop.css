@@ -1,0 +1,117 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+    .team-list-item,
+    .particulars-item {
+        width: calc((100% - 90px) / 4);
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+    .section {
+        padding: 94px 0;
+    }
+    .section-works {
+        display: block;
+    }
+    .clients-list-box {
+        width: calc((100% - 150px) / 6);
+    }
+    .hero {
+        background-image: linear-gradient(
+                to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)
+            ),
+            url("../images/hero_background-desktop.jpg");
+        padding: 200px 0;
+        max-width: 1600px;
+    }
+    .hero-title {
+        font-size: 44px;
+        line-height: 1.36;
+        max-width: 696px;
+    }
+    .header-list {
+        display: flex;
+    }
+    .header-logo.position {
+        padding: 24px 0 21px 0;
+        margin-right: 93px;
+    }
+    .menu-open {
+        display: none;
+    }
+    .modal {
+        height: 581px;
+        width: 528px;
+    }
+    .modal-checkbox-text {
+        font-size: 14px;
+        line-height: 1.71;
+    }
+    .footer-wrap {
+        flex-direction: inherit;
+        align-items: inherit;
+    }
+
+    .footer-logo {
+        font-size: 26px;
+        line-height: 1.19;
+    }
+    .footer-logo.position {
+        text-align: left;
+    }
+    .footer-list {
+        margin-bottom: 0;
+    }
+    .footer-center {
+        display: inherit;
+        flex-direction: inherit;
+        align-items: inherit;
+    }
+    .footer-line {
+        flex-direction: column;
+        padding-top: 12px;
+    }
+    .footer-wrap-width {
+        padding-top: 12px;
+    }
+    .footer-item:not(:last-child) {
+        margin-bottom: 9px;
+    }
+    .footer-social-links {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+    .footer-union {
+        margin-bottom: 0;
+    }
+    .email-send {
+        margin-top: 20px;
+        display: flex;
+        gap: 12px;
+        padding: 0;
+    }
+    .email-input {
+        width: 358px;
+        height: 50px;
+    }
+    .footer-tablet {
+        display: flex;
+    }
+    .footer-tablet div:nth-child(1) {
+        margin-right: 94px;
+        width: 207px;
+    }
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero {
+            background-image: url("../images/hero_background-desktop@2x.jpg");
+        }
+    }
+}
